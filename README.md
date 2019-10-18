@@ -14,3 +14,8 @@ The examples are:
  - Ex02_R: This example shows how to use Docker and HTCondor to process a set of data using R language.
  - Ex03_OctaveDagman: This last example shows how to create workflows which allows the user to define dependencies between jobs.
 
+## Important
+When you clone/download this files, run the next commands to prevent execution issues:
+ - cd 2019_HTCondor
+ - find . -iname "*.bash" -type f -exec chmod +x {} \;
+ 

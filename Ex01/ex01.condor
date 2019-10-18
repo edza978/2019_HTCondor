@@ -9,13 +9,16 @@ should_transfer_files = Yes
 when_to_transfer_output = ON_EXIT_OR_EVICT
 
 Executable = test.bash
-Arguments  = 600 ex01.condor
+# Esperar 5 minutos
+Arguments  = 300 ex01.condor
 
 Log        = Ex01Log.txt
 Input      = ex01.condor
 Output     = Ex01Out$(Cluster)$(Process).txt
 Error      = Ex01Err$(Cluster)$(Process).txt
 
+# Solo ejecutarse en nodos con dominio: cloud.univalle.edu.co
 # Requirements = UidDomain == "cloud.univalle.edu.co"
 
-Queue 10
+# Ejecutar 4 veces la tarea
+Queue 4

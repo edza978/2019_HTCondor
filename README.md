@@ -1,32 +1,16 @@
-# II Workshop Computational Platforms
-This workshop is aimed to Masters and PhD students with an interest in topics such as High Performance Computing, Computational modeling and Distributed Systems. The presentations will be carried out in Spanish. For this occasion we hope to receive between 20/30 students.
+# III Workshop Computational Platforms
+This workshop is aimed to anyone with an interest in topics such as High Performance Computing, Computational modeling and Distributed Systems. The presentations will be carried out in Spanish.
 
-## Event goals
+## HTCondor's workshop goals
 
-The objective of this week's workshop is to publicize and encourage both Master's and Doctoral students to use the computational infrastructure available at the Universidad del Valle for scientific research purposes. In the same way, we will show how this computational infrastructure can be accessed and how the Networks and Distributed Systems Laboratory can assist students in the process.
-
-
-
-## Syllabus
-
-The event will be:
-
- - Linux - Command Line Interface 101
- - Introduction to HTCondor
- - HTCondor Workshop
- - Docker Containers
- - Docker Containers Workshop
- - Introduction to Parallel Computing
- - Multicore Programming with OpenMP
- - GPGPU with OpenACC
+The objective of this workshop is to give asistants a brief introduction of how to use HTCondor as a new tool in their research processes.
 
 
-## Event location
+## Examples
 
-Universidad del Valle, Cali, Colombia. Building 331, Systems Classroom #2, Second floor. (tentative)
+The examples are:
 
+ - Ex01: A simple example of how to define and execute a set of jobs in HTCondor.
+ - Ex02_R: This example shows how to use Docker and HTCondor to process a set of data using R language.
+ - Ex03_OctaveDagman: This last example shows how to create workflows which allows the user to define dependencies between jobs.
 
-
-## Resgistry cost
-
-Free for all (max 20 students)

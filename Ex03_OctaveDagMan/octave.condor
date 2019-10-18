@@ -19,4 +19,4 @@ Error          = Octave_Err.$(Process)
 idx = $(Process)+10
 Val = $INT(idx)
 Arguments = $(Val)
-Queue 40
+Queue 10

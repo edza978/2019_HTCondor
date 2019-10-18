@@ -17,5 +17,5 @@ Error      = ffmpeg_Err.$(Process)
 docker_image = jrottenberg/ffmpeg
 # El docker file tiene entrypoint ffmpeg, no requiere executable.
 #Executable   = ffmpeg
-Arguments    = -r 20 -start_number 10 -i %02d.png -vcodec libx264 -crf 25 -pix_fmt yuv420p test.mp4
+Arguments    = -r 10 -start_number 10 -i %02d.png -vcodec libx264 -crf 25 -pix_fmt yuv420p test.mp4
 Queue
